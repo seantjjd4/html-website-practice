@@ -1,0 +1,211 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* customize part start */
+
+.wrap {
+    width: 1024px;
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    font-family: PingFang TC;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 220px;
+}
+
+#shopping_cart {
+    width: 24px;
+    height: 24px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+div.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    width: 92px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #3F5D45;
+}
+
+.banner {
+    margin-bottom: 60px;
+}
+
+#banner {
+    width: 940px;
+    height: 496px;
+    display:block;
+    margin:auto;
+}
+
+#header_row {
+    color: #EAF0ED;
+    background: #3F5D45;
+}
+
+#all_desert {
+    background: #EAF0ED;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar ul li {
+    list-style: none;
+    font-size: 24px;
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #EAF0ED;
+    color: #3F5D45;
+    text-align: center;
+    font-weight: bold;
+}
+
+.product {
+    width: 300px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.product img {
+    width: 300px;
+    display: block;
+}
+
+.product_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 620px;
+}
+
+.name_price {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.name_price p {
+    font-size: 20px;
+    color: #3F5D45;
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.add_to_cart {
+    font-size: 24px;
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background: #EAF0ED;
+    color: #3F5D45;
+    font-weight: bold;
+}
+
+.tag {
+    position: absolute;
+    writing-mode: vertical-rl;
+    height: 106px;
+    top: 0px;
+    left: 25px;
+    text-align: center;
+    color: #EAF0ED;
+    background: #3F5D45;
+    padding-left: 10px;
+    padding-right: 10px;
+    letter-spacing: 4px;
+}
+
+#like_btn {
+    position: absolute;
+    top: 19px;
+    right: 22px;
+    width: 24px;
+    height: 24px;
+}
+
+.product_name {
+    width: 170px;
+    box-sizing: border-box;
+    border-left: 1px solid #EAF0ED;
+    border-right: 1px solid #EAF0ED;
+}
+
+.product_price {
+    width: 130px;
+    box-sizing: border-box;
+    border-right: 1px solid #EAF0ED;
+    font-weight: bold;
+}
